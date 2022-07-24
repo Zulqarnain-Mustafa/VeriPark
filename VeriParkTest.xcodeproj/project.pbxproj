@@ -1,0 +1,837 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0326CD3ACAB74512ED8FD634 /* Pods_VeriParkTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 322E4A993B5CDE09F10FF5FD /* Pods_VeriParkTest.framework */; };
+		2571B449CDADA8C62B5E453C /* Pods_VeriParkTest_VeriParkTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CB6F80665CB714DFFB6FC82 /* Pods_VeriParkTest_VeriParkTestUITests.framework */; };
+		6295B7E5288D14A000C4FC43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6295B7E4288D14A000C4FC43 /* AppDelegate.swift */; };
+		6295B7E7288D14A000C4FC43 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6295B7E6288D14A000C4FC43 /* SceneDelegate.swift */; };
+		6295B7E9288D14A000C4FC43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6295B7E8288D14A000C4FC43 /* ViewController.swift */; };
+		6295B7EC288D14A000C4FC43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6295B7EA288D14A000C4FC43 /* Main.storyboard */; };
+		6295B7EE288D14A200C4FC43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6295B7ED288D14A200C4FC43 /* Assets.xcassets */; };
+		6295B7F1288D14A200C4FC43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6295B7EF288D14A200C4FC43 /* LaunchScreen.storyboard */; };
+		6295B7FC288D14A200C4FC43 /* VeriParkTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6295B7FB288D14A200C4FC43 /* VeriParkTestTests.swift */; };
+		6295B806288D14A200C4FC43 /* VeriParkTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6295B805288D14A200C4FC43 /* VeriParkTestUITests.swift */; };
+		6295B808288D14A200C4FC43 /* VeriParkTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6295B807288D14A200C4FC43 /* VeriParkTestUITestsLaunchTests.swift */; };
+		6295B819288D170C00C4FC43 /* ZMView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6295B816288D170B00C4FC43 /* ZMView.swift */; };
+		6295B81A288D170C00C4FC43 /* WAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6295B817288D170B00C4FC43 /* WAButton.swift */; };
+		6295B81B288D170C00C4FC43 /* ZMTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6295B818288D170C00C4FC43 /* ZMTextField.swift */; };
+		6295B81E288D1CCE00C4FC43 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6295B81D288D1CCE00C4FC43 /* Customer.swift */; };
+		6295B820288D1D5E00C4FC43 /* MeterReading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6295B81F288D1D5E00C4FC43 /* MeterReading.swift */; };
+		6295B822288D1DFE00C4FC43 /* RealmLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6295B821288D1DFE00C4FC43 /* RealmLayer.swift */; };
+		6295B824288D204F00C4FC43 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6295B823288D204F00C4FC43 /* Extensions.swift */; };
+		6295B827288D255900C4FC43 /* HistoricalReadingsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6295B826288D255900C4FC43 /* HistoricalReadingsTableView.swift */; };
+		6295B829288D256E00C4FC43 /* HistoricalReadingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6295B828288D256E00C4FC43 /* HistoricalReadingsTableViewCell.swift */; };
+		6295B82B288D259000C4FC43 /* SaveReadingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6295B82A288D259000C4FC43 /* SaveReadingsViewController.swift */; };
+		62EA9C5B288D3AFD002EBA03 /* SlabTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62EA9C5A288D3AFD002EBA03 /* SlabTableView.swift */; };
+		62EA9C5D288D3B0C002EBA03 /* SlabTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62EA9C5C288D3B0C002EBA03 /* SlabTableViewCell.swift */; };
+		EAA385DA052F5E75C74811D8 /* Pods_VeriParkTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9A8BB5C3DE8F2EE91C8B030 /* Pods_VeriParkTestTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6295B7F8288D14A200C4FC43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6295B7D9288D14A000C4FC43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6295B7E0288D14A000C4FC43;
+			remoteInfo = VeriParkTest;
+		};
+		6295B802288D14A200C4FC43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6295B7D9288D14A000C4FC43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6295B7E0288D14A000C4FC43;
+			remoteInfo = VeriParkTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		322E4A993B5CDE09F10FF5FD /* Pods_VeriParkTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VeriParkTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CB6F80665CB714DFFB6FC82 /* Pods_VeriParkTest_VeriParkTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VeriParkTest_VeriParkTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C8A89E2EEE96C9B262E48E6 /* Pods-VeriParkTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VeriParkTest.release.xcconfig"; path = "Target Support Files/Pods-VeriParkTest/Pods-VeriParkTest.release.xcconfig"; sourceTree = "<group>"; };
+		6295B7E1288D14A000C4FC43 /* VeriParkTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VeriParkTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6295B7E4288D14A000C4FC43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6295B7E6288D14A000C4FC43 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6295B7E8288D14A000C4FC43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6295B7EB288D14A000C4FC43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6295B7ED288D14A200C4FC43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6295B7F0288D14A200C4FC43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6295B7F2288D14A200C4FC43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6295B7F7288D14A200C4FC43 /* VeriParkTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VeriParkTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6295B7FB288D14A200C4FC43 /* VeriParkTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeriParkTestTests.swift; sourceTree = "<group>"; };
+		6295B801288D14A200C4FC43 /* VeriParkTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VeriParkTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6295B805288D14A200C4FC43 /* VeriParkTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeriParkTestUITests.swift; sourceTree = "<group>"; };
+		6295B807288D14A200C4FC43 /* VeriParkTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeriParkTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6295B816288D170B00C4FC43 /* ZMView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZMView.swift; sourceTree = "<group>"; };
+		6295B817288D170B00C4FC43 /* WAButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WAButton.swift; sourceTree = "<group>"; };
+		6295B818288D170C00C4FC43 /* ZMTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZMTextField.swift; sourceTree = "<group>"; };
+		6295B81D288D1CCE00C4FC43 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		6295B81F288D1D5E00C4FC43 /* MeterReading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeterReading.swift; sourceTree = "<group>"; };
+		6295B821288D1DFE00C4FC43 /* RealmLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmLayer.swift; sourceTree = "<group>"; };
+		6295B823288D204F00C4FC43 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		6295B826288D255900C4FC43 /* HistoricalReadingsTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricalReadingsTableView.swift; sourceTree = "<group>"; };
+		6295B828288D256E00C4FC43 /* HistoricalReadingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricalReadingsTableViewCell.swift; sourceTree = "<group>"; };
+		6295B82A288D259000C4FC43 /* SaveReadingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveReadingsViewController.swift; sourceTree = "<group>"; };
+		62EA9C5A288D3AFD002EBA03 /* SlabTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlabTableView.swift; sourceTree = "<group>"; };
+		62EA9C5C288D3B0C002EBA03 /* SlabTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlabTableViewCell.swift; sourceTree = "<group>"; };
+		71BFC419620E334A9B95069E /* Pods-VeriParkTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VeriParkTest.debug.xcconfig"; path = "Target Support Files/Pods-VeriParkTest/Pods-VeriParkTest.debug.xcconfig"; sourceTree = "<group>"; };
+		8265E1246FA663019CC89AB1 /* Pods-VeriParkTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VeriParkTestTests.release.xcconfig"; path = "Target Support Files/Pods-VeriParkTestTests/Pods-VeriParkTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		B2D424F4E4F914B0FD4D3874 /* Pods-VeriParkTest-VeriParkTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VeriParkTest-VeriParkTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-VeriParkTest-VeriParkTestUITests/Pods-VeriParkTest-VeriParkTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B9A8BB5C3DE8F2EE91C8B030 /* Pods_VeriParkTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VeriParkTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9615EA00A2FCD96B4A1728D /* Pods-VeriParkTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VeriParkTestTests.debug.xcconfig"; path = "Target Support Files/Pods-VeriParkTestTests/Pods-VeriParkTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FDD04F7D3A33BCE512D587F1 /* Pods-VeriParkTest-VeriParkTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VeriParkTest-VeriParkTestUITests.release.xcconfig"; path = "Target Support Files/Pods-VeriParkTest-VeriParkTestUITests/Pods-VeriParkTest-VeriParkTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6295B7DE288D14A000C4FC43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0326CD3ACAB74512ED8FD634 /* Pods_VeriParkTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6295B7F4288D14A200C4FC43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA385DA052F5E75C74811D8 /* Pods_VeriParkTestTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6295B7FE288D14A200C4FC43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2571B449CDADA8C62B5E453C /* Pods_VeriParkTest_VeriParkTestUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B26328BDF3B3E85D00778D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				71BFC419620E334A9B95069E /* Pods-VeriParkTest.debug.xcconfig */,
+				4C8A89E2EEE96C9B262E48E6 /* Pods-VeriParkTest.release.xcconfig */,
+				B2D424F4E4F914B0FD4D3874 /* Pods-VeriParkTest-VeriParkTestUITests.debug.xcconfig */,
+				FDD04F7D3A33BCE512D587F1 /* Pods-VeriParkTest-VeriParkTestUITests.release.xcconfig */,
+				F9615EA00A2FCD96B4A1728D /* Pods-VeriParkTestTests.debug.xcconfig */,
+				8265E1246FA663019CC89AB1 /* Pods-VeriParkTestTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6295B7D8288D14A000C4FC43 = {
+			isa = PBXGroup;
+			children = (
+				6295B7E3288D14A000C4FC43 /* VeriParkTest */,
+				6295B7FA288D14A200C4FC43 /* VeriParkTestTests */,
+				6295B804288D14A200C4FC43 /* VeriParkTestUITests */,
+				6295B7E2288D14A000C4FC43 /* Products */,
+				1B26328BDF3B3E85D00778D9 /* Pods */,
+				D1A1ED9BE1304EAE8A4653B9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6295B7E2288D14A000C4FC43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6295B7E1288D14A000C4FC43 /* VeriParkTest.app */,
+				6295B7F7288D14A200C4FC43 /* VeriParkTestTests.xctest */,
+				6295B801288D14A200C4FC43 /* VeriParkTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6295B7E3288D14A000C4FC43 /* VeriParkTest */ = {
+			isa = PBXGroup;
+			children = (
+				6295B825288D253900C4FC43 /* Views */,
+				6295B81C288D1C6000C4FC43 /* Model */,
+				6295B815288D155B00C4FC43 /* Utilities */,
+				6295B814288D155100C4FC43 /* Controllers */,
+				6295B7E4288D14A000C4FC43 /* AppDelegate.swift */,
+				6295B7E6288D14A000C4FC43 /* SceneDelegate.swift */,
+				6295B7EA288D14A000C4FC43 /* Main.storyboard */,
+				6295B7ED288D14A200C4FC43 /* Assets.xcassets */,
+				6295B7EF288D14A200C4FC43 /* LaunchScreen.storyboard */,
+				6295B7F2288D14A200C4FC43 /* Info.plist */,
+			);
+			path = VeriParkTest;
+			sourceTree = "<group>";
+		};
+		6295B7FA288D14A200C4FC43 /* VeriParkTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				6295B7FB288D14A200C4FC43 /* VeriParkTestTests.swift */,
+			);
+			path = VeriParkTestTests;
+			sourceTree = "<group>";
+		};
+		6295B804288D14A200C4FC43 /* VeriParkTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6295B805288D14A200C4FC43 /* VeriParkTestUITests.swift */,
+				6295B807288D14A200C4FC43 /* VeriParkTestUITestsLaunchTests.swift */,
+			);
+			path = VeriParkTestUITests;
+			sourceTree = "<group>";
+		};
+		6295B814288D155100C4FC43 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6295B7E8288D14A000C4FC43 /* ViewController.swift */,
+				6295B82A288D259000C4FC43 /* SaveReadingsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6295B815288D155B00C4FC43 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				6295B817288D170B00C4FC43 /* WAButton.swift */,
+				6295B818288D170C00C4FC43 /* ZMTextField.swift */,
+				6295B816288D170B00C4FC43 /* ZMView.swift */,
+				6295B821288D1DFE00C4FC43 /* RealmLayer.swift */,
+				6295B823288D204F00C4FC43 /* Extensions.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		6295B81C288D1C6000C4FC43 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6295B81D288D1CCE00C4FC43 /* Customer.swift */,
+				6295B81F288D1D5E00C4FC43 /* MeterReading.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6295B825288D253900C4FC43 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6295B826288D255900C4FC43 /* HistoricalReadingsTableView.swift */,
+				6295B828288D256E00C4FC43 /* HistoricalReadingsTableViewCell.swift */,
+				62EA9C5A288D3AFD002EBA03 /* SlabTableView.swift */,
+				62EA9C5C288D3B0C002EBA03 /* SlabTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D1A1ED9BE1304EAE8A4653B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				322E4A993B5CDE09F10FF5FD /* Pods_VeriParkTest.framework */,
+				3CB6F80665CB714DFFB6FC82 /* Pods_VeriParkTest_VeriParkTestUITests.framework */,
+				B9A8BB5C3DE8F2EE91C8B030 /* Pods_VeriParkTestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6295B7E0288D14A000C4FC43 /* VeriParkTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6295B80B288D14A200C4FC43 /* Build configuration list for PBXNativeTarget "VeriParkTest" */;
+			buildPhases = (
+				44DAFA55EC651B5501FC035A /* [CP] Check Pods Manifest.lock */,
+				6295B7DD288D14A000C4FC43 /* Sources */,
+				6295B7DE288D14A000C4FC43 /* Frameworks */,
+				6295B7DF288D14A000C4FC43 /* Resources */,
+				D5128E8C59AAAB247D66EE5A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VeriParkTest;
+			productName = VeriParkTest;
+			productReference = 6295B7E1288D14A000C4FC43 /* VeriParkTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6295B7F6288D14A200C4FC43 /* VeriParkTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6295B80E288D14A200C4FC43 /* Build configuration list for PBXNativeTarget "VeriParkTestTests" */;
+			buildPhases = (
+				34424060804D28A176E7860E /* [CP] Check Pods Manifest.lock */,
+				6295B7F3288D14A200C4FC43 /* Sources */,
+				6295B7F4288D14A200C4FC43 /* Frameworks */,
+				6295B7F5288D14A200C4FC43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6295B7F9288D14A200C4FC43 /* PBXTargetDependency */,
+			);
+			name = VeriParkTestTests;
+			productName = VeriParkTestTests;
+			productReference = 6295B7F7288D14A200C4FC43 /* VeriParkTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6295B800288D14A200C4FC43 /* VeriParkTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6295B811288D14A200C4FC43 /* Build configuration list for PBXNativeTarget "VeriParkTestUITests" */;
+			buildPhases = (
+				D83EFB17EE2000DFAB3C10B4 /* [CP] Check Pods Manifest.lock */,
+				6295B7FD288D14A200C4FC43 /* Sources */,
+				6295B7FE288D14A200C4FC43 /* Frameworks */,
+				6295B7FF288D14A200C4FC43 /* Resources */,
+				E7855403EDDA8F0460C1B157 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6295B803288D14A200C4FC43 /* PBXTargetDependency */,
+			);
+			name = VeriParkTestUITests;
+			productName = VeriParkTestUITests;
+			productReference = 6295B801288D14A200C4FC43 /* VeriParkTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6295B7D9288D14A000C4FC43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					6295B7E0288D14A000C4FC43 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					6295B7F6288D14A200C4FC43 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 6295B7E0288D14A000C4FC43;
+					};
+					6295B800288D14A200C4FC43 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 6295B7E0288D14A000C4FC43;
+					};
+				};
+			};
+			buildConfigurationList = 6295B7DC288D14A000C4FC43 /* Build configuration list for PBXProject "VeriParkTest" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6295B7D8288D14A000C4FC43;
+			productRefGroup = 6295B7E2288D14A000C4FC43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6295B7E0288D14A000C4FC43 /* VeriParkTest */,
+				6295B7F6288D14A200C4FC43 /* VeriParkTestTests */,
+				6295B800288D14A200C4FC43 /* VeriParkTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6295B7DF288D14A000C4FC43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6295B7F1288D14A200C4FC43 /* LaunchScreen.storyboard in Resources */,
+				6295B7EE288D14A200C4FC43 /* Assets.xcassets in Resources */,
+				6295B7EC288D14A000C4FC43 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6295B7F5288D14A200C4FC43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6295B7FF288D14A200C4FC43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34424060804D28A176E7860E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VeriParkTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44DAFA55EC651B5501FC035A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VeriParkTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5128E8C59AAAB247D66EE5A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VeriParkTest/Pods-VeriParkTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VeriParkTest/Pods-VeriParkTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VeriParkTest/Pods-VeriParkTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D83EFB17EE2000DFAB3C10B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VeriParkTest-VeriParkTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7855403EDDA8F0460C1B157 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VeriParkTest-VeriParkTestUITests/Pods-VeriParkTest-VeriParkTestUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VeriParkTest-VeriParkTestUITests/Pods-VeriParkTest-VeriParkTestUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VeriParkTest-VeriParkTestUITests/Pods-VeriParkTest-VeriParkTestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6295B7DD288D14A000C4FC43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6295B7E9288D14A000C4FC43 /* ViewController.swift in Sources */,
+				6295B81E288D1CCE00C4FC43 /* Customer.swift in Sources */,
+				6295B829288D256E00C4FC43 /* HistoricalReadingsTableViewCell.swift in Sources */,
+				6295B819288D170C00C4FC43 /* ZMView.swift in Sources */,
+				6295B7E5288D14A000C4FC43 /* AppDelegate.swift in Sources */,
+				62EA9C5B288D3AFD002EBA03 /* SlabTableView.swift in Sources */,
+				62EA9C5D288D3B0C002EBA03 /* SlabTableViewCell.swift in Sources */,
+				6295B822288D1DFE00C4FC43 /* RealmLayer.swift in Sources */,
+				6295B827288D255900C4FC43 /* HistoricalReadingsTableView.swift in Sources */,
+				6295B824288D204F00C4FC43 /* Extensions.swift in Sources */,
+				6295B820288D1D5E00C4FC43 /* MeterReading.swift in Sources */,
+				6295B81A288D170C00C4FC43 /* WAButton.swift in Sources */,
+				6295B82B288D259000C4FC43 /* SaveReadingsViewController.swift in Sources */,
+				6295B81B288D170C00C4FC43 /* ZMTextField.swift in Sources */,
+				6295B7E7288D14A000C4FC43 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6295B7F3288D14A200C4FC43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6295B7FC288D14A200C4FC43 /* VeriParkTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6295B7FD288D14A200C4FC43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6295B808288D14A200C4FC43 /* VeriParkTestUITestsLaunchTests.swift in Sources */,
+				6295B806288D14A200C4FC43 /* VeriParkTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6295B7F9288D14A200C4FC43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6295B7E0288D14A000C4FC43 /* VeriParkTest */;
+			targetProxy = 6295B7F8288D14A200C4FC43 /* PBXContainerItemProxy */;
+		};
+		6295B803288D14A200C4FC43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6295B7E0288D14A000C4FC43 /* VeriParkTest */;
+			targetProxy = 6295B802288D14A200C4FC43 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6295B7EA288D14A000C4FC43 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6295B7EB288D14A000C4FC43 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6295B7EF288D14A200C4FC43 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6295B7F0288D14A200C4FC43 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6295B809288D14A200C4FC43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6295B80A288D14A200C4FC43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6295B80C288D14A200C4FC43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71BFC419620E334A9B95069E /* Pods-VeriParkTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VeriParkTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zulqarnain.VeriParkTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6295B80D288D14A200C4FC43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C8A89E2EEE96C9B262E48E6 /* Pods-VeriParkTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VeriParkTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zulqarnain.VeriParkTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		6295B80F288D14A200C4FC43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9615EA00A2FCD96B4A1728D /* Pods-VeriParkTestTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zulqarnain.VeriParkTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VeriParkTest.app/VeriParkTest";
+			};
+			name = Debug;
+		};
+		6295B810288D14A200C4FC43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8265E1246FA663019CC89AB1 /* Pods-VeriParkTestTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zulqarnain.VeriParkTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VeriParkTest.app/VeriParkTest";
+			};
+			name = Release;
+		};
+		6295B812288D14A200C4FC43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2D424F4E4F914B0FD4D3874 /* Pods-VeriParkTest-VeriParkTestUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zulqarnain.VeriParkTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VeriParkTest;
+			};
+			name = Debug;
+		};
+		6295B813288D14A200C4FC43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDD04F7D3A33BCE512D587F1 /* Pods-VeriParkTest-VeriParkTestUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zulqarnain.VeriParkTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VeriParkTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6295B7DC288D14A000C4FC43 /* Build configuration list for PBXProject "VeriParkTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6295B809288D14A200C4FC43 /* Debug */,
+				6295B80A288D14A200C4FC43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6295B80B288D14A200C4FC43 /* Build configuration list for PBXNativeTarget "VeriParkTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6295B80C288D14A200C4FC43 /* Debug */,
+				6295B80D288D14A200C4FC43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6295B80E288D14A200C4FC43 /* Build configuration list for PBXNativeTarget "VeriParkTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6295B80F288D14A200C4FC43 /* Debug */,
+				6295B810288D14A200C4FC43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6295B811288D14A200C4FC43 /* Build configuration list for PBXNativeTarget "VeriParkTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6295B812288D14A200C4FC43 /* Debug */,
+				6295B813288D14A200C4FC43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6295B7D9288D14A000C4FC43 /* Project object */;
+}

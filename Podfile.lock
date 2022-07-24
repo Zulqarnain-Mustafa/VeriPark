@@ -1,0 +1,31 @@
+PODS:
+  - Realm (10.25.0):
+    - Realm/Headers (= 10.25.0)
+  - Realm/Headers (10.25.0)
+  - RealmSwift (10.25.0):
+    - Realm (= 10.25.0)
+  - SwiftDate (5.1.0)
+  - TPKeyboardAvoidingSwift (3.2)
+
+DEPENDENCIES:
+  - Realm
+  - RealmSwift
+  - SwiftDate (~> 5.0)
+  - TPKeyboardAvoidingSwift
+
+SPEC REPOS:
+  trunk:
+    - Realm
+    - RealmSwift
+    - SwiftDate
+    - TPKeyboardAvoidingSwift
+
+SPEC CHECKSUMS:
+  Realm: 22a82aaa0e73f3483e3a6df32549c4c5cd34aa63
+  RealmSwift: c2a635212400923edd3f828b8a37d55d3eb31863
+  SwiftDate: 6329e58969a2de31cea7f1ee1143b247693196e7
+  TPKeyboardAvoidingSwift: ce1a75e0bc3af6b485f8bfa1d0a8320cfc565851
+
+PODFILE CHECKSUM: 6035824c1a8a0cd10388f08429907d97eabf8eeb
+
+COCOAPODS: 1.11.3
